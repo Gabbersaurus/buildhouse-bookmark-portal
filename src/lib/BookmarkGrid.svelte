@@ -2,9 +2,7 @@
     import { bookmarks } from "../stores/bookmarks";
 </script>
 
-<div
-    class="grid grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4 md:gap-8 lg:gap-16 xl:gap-24"
->
+<div class="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-4 xl:gap-6">
     {#each $bookmarks as bookmark}
         <a
             class="btn block h-full px-0 rounded-lg bg-neutral shadow-lg"
@@ -19,7 +17,7 @@
                 />
             </figure>
             <div class="card-body p-2">
-                <h2 class="text-sm md:text-lg text-bold text-center truncate">
+                <h2 class="text-sm lg:text-lg text-bold text-center truncate">
                     {bookmark.title}
                 </h2>
             </div>
