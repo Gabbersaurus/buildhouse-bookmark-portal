@@ -13,7 +13,7 @@
         >
             <figure class="rounded-lg mx-2 mt-2">
                 <img
-                    src={bookmark.favicon || "/logo.svg"}
+                    src={bookmark.favicon || "/favicon.svg"}
                     alt="{bookmark.title} favicon"
                     class="w-full aspect-square object-cover rounded-lg"
                 />

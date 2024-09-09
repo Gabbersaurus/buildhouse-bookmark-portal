@@ -8,9 +8,9 @@
     } from "../stores/settings";
     import { SearchProvider } from "../stores/settings";
     import UpIcon from "./icons/UpIcon.svelte";
-    import DownIcon from "./icons/DownIcon.svelte";
+    import DownIcon from "./icons/UpIcon copy.svelte";
     import EditIcon from "./icons/EditIcon.svelte";
-    import DeleteIcon from "./icons/DeleteIcon.svelte";
+    import DeleteIcon from "./icons/TrashIcon.svelte";
 
     const searchProviders = Object.values(SearchProvider);
 
@@ -221,7 +221,7 @@
             {#each $bookmarks as bookmark, index}
                 <li class="flex justify-start p-4 bg-base-200 rounded shadow">
                     <img
-                        src={bookmark.favicon || "/logo.svg"}
+                        src={bookmark.favicon || "/favicon.svg"}
                         alt={bookmark.title}
                         class="w-8 h-8 mr-2"
                     />
