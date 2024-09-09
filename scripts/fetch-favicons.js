@@ -1,8 +1,7 @@
-const https = require('https');
-const fs = require('fs');
-const path = require('path');
+import https from 'https';
+import fs from 'fs';
 
-const settingsFilePath = path.join(__dirname, 'bbp_settings.json');
+const settingsFilePath = './bbp_settings.json';
 let bookmarksData = JSON.parse(fs.readFileSync(settingsFilePath, 'utf8'));
 
 // Gets the favicon, resizes it to 128x128, and converts to Base64
