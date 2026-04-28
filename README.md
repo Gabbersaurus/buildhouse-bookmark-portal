@@ -24,12 +24,9 @@ By pressing the settings button, you open the settings modal. In this modal, you
 
 In the settings, you manage the bookmarks. Here, you can add, edit, sort and delete them.
 Every bookmark has three properties:
-- Title
-The title shown under the favicon on the overview.
-- Url
-The URL will be be opened when the bookmark is pressed. It should include the protocol.
-- Favicon
-A Base64 image data URI for the favicon. These can be imported by selecting an image file in the browser. The image will be converted to a Base64 data URI.
+- Title - The title shown under the favicon on the overview.
+- URL - The URL will be be opened when the bookmark is pressed. It should include the protocol.
+- Favicon - A Base64 image data URI for the favicon. These can be imported by selecting an image file in the browser. The image will be converted to a Base64 data URI.
 
 Every change in the settings is pushed to the browser's LocalStorage, so it remembers your settings when you reload the page.
 The settings can be exported to JSON and imported again in the settings modal. This way, you can easily share the bookmarks between devices.
