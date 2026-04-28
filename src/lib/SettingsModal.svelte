@@ -8,7 +8,7 @@
     } from "../stores/settings";
     import { SearchProvider } from "../stores/settings";
     import UpIcon from "./icons/UpIcon.svelte";
-    import DownIcon from "./icons/UpIcon copy.svelte";
+    import DownIcon from "./icons/DownIcon.svelte";
     import EditIcon from "./icons/EditIcon.svelte";
     import DeleteIcon from "./icons/TrashIcon.svelte";
 
